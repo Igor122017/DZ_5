@@ -13,7 +13,7 @@ def find_number(nums):
         if nums[i+1] - nums[i] > 1:
             return nums[i] + 1
 
-fnums = '35_Add_number.txt'
+fnums = '1_Add_number.txt'
 nums_list = get_data_from_file(fnums)
 
 print(nums_list)
